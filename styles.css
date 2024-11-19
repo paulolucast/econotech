@@ -54,7 +54,7 @@ h1 {
 h1 .logo {
   display: block; /* Faz a logo ocupar a linha acima */
   margin: 0 auto; /* Centraliza horizontalmente */
-  width: 80px; /* Ajuste o tamanho da logo */
+  width: 200px; /* Ajuste o tamanho da logo */
   height: auto;
 }
 
