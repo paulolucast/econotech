@@ -43,6 +43,7 @@
   
  /* Estilo para o h1 */
 h1 {
+  text-align: center; /* Centraliza o conteúdo do h1 */
   color: #f39c12;
   display: center; /* Alinha a logo e o texto lado a lado */
   gap: 10px; /* Espaço entre a logo e o texto */
@@ -51,8 +52,10 @@ h1 {
 
 /* Estilo para a imagem da logo */
 h1 .logo {
-  width: 50px; /* Largura da logo */
-  height: auto; /* Mantém a proporção */
+  display: block; /* Faz a logo ocupar a linha acima */
+  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 80px; /* Ajuste o tamanho da logo */
+  height: auto;
 }
 
   
