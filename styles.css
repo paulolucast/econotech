@@ -69,9 +69,15 @@ article img {
   border-radius: 8px 8px 0 0; /* Borda arredondada apenas na parte superior */
 }
 
-a h3 {
+h3 a {
+  text-decoration: none;
   color: #f39c12;
   margin: 0.5rem 0;
+}
+
+h3 a:hover {
+  color: #f39c12; /* Cor no hover */
+  text-decoration: underline; /* Sublinhado ao passar o mouse (opcional) */
 }
 
 article p {
