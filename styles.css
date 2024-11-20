@@ -124,6 +124,7 @@ article p {
   article img {
     width: 100%;
     height: auto;
+    align-items: center;
   }
 }
 
